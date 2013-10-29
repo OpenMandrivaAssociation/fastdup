@@ -1,0 +1,10 @@
+diff -Naur fastdup-0.3.orig/Makefile fastdup-0.3/Makefile
+--- fastdup-0.3.orig/Makefile	2013-10-29 22:01:10.000000000 +0400
++++ fastdup-0.3/Makefile	2013-10-29 22:01:22.000000000 +0400
+@@ -7,5 +7,4 @@
+ 	@rm -rvf fastdup src/*.o modules/*.so
+ 
+ install:
+-	@install fastdup /usr/bin/
+-	@echo "Installation complete"
++	@install fastdup $(DESTDIR)/usr/bin/
