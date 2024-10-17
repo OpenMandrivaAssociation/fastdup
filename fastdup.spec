@@ -4,7 +4,7 @@ Release:	1
 Group:		Archiving/Backup
 License:	GPLv3+
 Summary:	Find copies of the same file
-Url:		http://sourceforge.net/projects/fastdup/
+Url:		https://sourceforge.net/projects/fastdup/
 Source0:	http://downloads.sourceforge.net/project/fastdup/fastdup/0.3%20alpha/fastdup-0.3.tar.bz2
 Patch0:		fastdup-0.3-install-path.patch
 
