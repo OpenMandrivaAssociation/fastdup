@@ -8,6 +8,7 @@ Url:		https://sourceforge.net/projects/fastdup/
 Source0:	http://downloads.sourceforge.net/project/fastdup/fastdup/0.3%20alpha/fastdup-0.3.tar.bz2
 Patch0:		fastdup-0.3-install-path.patch
 
+BuildRequires:	make
 %description
 FastDup is a tool to find copies of the same file within directory tree(s),
 designed for maximum speed and efficiency unlike most similar tools. Where
